@@ -1,6 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dynamic-background-base: rgba(0, 0, 0, 0); /* حذف مقدار قبلی */
+  --dynamic-background-tinted: rgba(0, 0, 0, 0);
+  --dynamic-background-tinted-50: rgba(0, 0, 0, 0);
+  --background-base: rgba(0, 0, 0, 0);
+  --background-tinted: rgba(0, 0, 0, 0);
+  --text-base: rgba(255, 255, 255, 1); /* متن سفید باقی می‌ماند */
+  --text-bright-accent: rgba(255, 255, 255, 1);
+  --text-subdued: rgba(200, 200, 200, 1); /* متنی خنثی‌تر */
 }
 
 @media (prefers-color-scheme: dark) {
