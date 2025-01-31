@@ -21,6 +21,7 @@ const Albom = () => {
         sx={{
           display: 'flex',
           gap: 3,
+          alignItems:"center"
         }}
       >
         <Card

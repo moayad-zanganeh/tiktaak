@@ -7,12 +7,10 @@ function Musics() {
       sx={{
         height: '80vh',
         width: '100%',
-
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         p: 2,
-        my: 1,
       }}
     >
       <iframe
